@@ -2,6 +2,9 @@
 ETL data conversion projects Validation codes saving extreme business Productivity without need of developers or solution architects. This user friendly code helps achieve validation services for business, government and military orgranizations for small to large data sets 
 
 #
+This is a invite based page only, if you are not the authorised invitee then please close the web browser and reach out back to Consultant who referred you to this page.
+
+#
 Copyright. All rights reserved. All content is exclusively owned, developed, enhanced and maintained by Shiraz Rajwani
 
 #
