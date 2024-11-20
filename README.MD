@@ -9,7 +9,4 @@ The code you see from this page onwards is developed exclusively by Shiraz Rajwa
 # 
 The Code cannot be copied or sceen captured in any shape, method or form (including AI or webscrap or crawler or google or any AI or web search engines results output) without prior written approved consent of the author. 
 
-# Authorized Invitees only
-This is a invite based page only, if you are not the authorized invitee then please close the web browser and reach back to the Consultant or author who referred you to this page.
-
 Please respect authors work. Copyright laws of British Columbia, Canada is applicable.
