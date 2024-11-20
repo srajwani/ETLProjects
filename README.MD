@@ -12,4 +12,4 @@ The Code cannot be copied or sceen captured in any shape, method or form (includ
 # Authorized Invitees only
 This is a invite based page only, if you are not the authorized invitee then please close the web browser and reach out back to Consultant or author who referred you to this page.
 
-Please respect authors work. Copyright laws of British Columbia, Canada is applicable incase of disputes.
+Please respect authors work. Copyright laws of British Columbia, Canada is applicable.
