@@ -1,0 +1,38 @@
+# Created by Shiraz Rajwani. This PowerShell Script fetches Data Set from the file. 
+# Get the current directory where the script is running
+$ScriptDirectory = [System.IO.Path]::GetDirectoryName($MyInvocation.MyCommand.Path)
+
+# Specify the relative path to your input file (assuming it's in the same directory)
+$InputFileName = "<OutPutFile_with_extn>" # SR please update it when using this
+$InputFilePath = Join-Path -Path $ScriptDirectory -ChildPath $InputFileName
+
+# Specify the path for the output file
+$OutputFilePath = Join-Path -Path $ScriptDirectory -ChildPath "Extracted_Data.csv"
+
+# Read the lines from the input file
+$Lines = Get-Content -Path $InputFilePath
+
+# Initialize an empty array to store the extracted content
+$ExtractedContent = @()
+
+# Loop through each line and extract the desired content
+foreach ($Line in $Lines) {
+    $FirstSet = $Line.Substring(0, 11)  # Extract data from columns 1 to 11, this is configurable.
+    
+
+       # Create a custom object with headers
+        { 
+            $CustomObject = [PSCustomObject]@{
+            "FirstDataSet" = $FirstSet
+        }
+
+        # Add the custom object to the array
+        $ExtractedContent += $CustomObject
+    }
+}
+
+# Create a CSV file with the extracted content and headers
+$ExtractedContent | Export-Csv -Path $OutputFilePath -NoTypeInformation
+
+# Display a message indicating success
+Write-Host "Extracted ODI data saved to $OutputFilePath"
