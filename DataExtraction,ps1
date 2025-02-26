@@ -35,4 +35,4 @@ foreach ($Line in $Lines) {
 $ExtractedContent | Export-Csv -Path $OutputFilePath -NoTypeInformation
 
 # Display a message indicating success
-Write-Host "Extracted ODI data saved to $OutputFilePath"
+Write-Host "Extracted data saved to $OutputFilePath"
